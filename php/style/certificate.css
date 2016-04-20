@@ -1,0 +1,55 @@
+@stud {
+    margin: 0;
+}
+html, body {
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+	font-family: sans-serif;
+	-webkit-print-color-adjust:exact;
+}
+.stud{
+	margin: 0 auto 0 auto;
+	width: 240mm;
+	height: 141mm;
+	border: 1px solid #FFFFFF;
+	padding: 1.1cm 0 0 0;
+/*
+	background-image:url("../images/Jnanasudha_Certificate_copy.jpg");
+	background-size: 100%;
+*/
+	page-break-after: always;
+}
+.stud_name1 {
+	border: 1px solid #FFFFFF;
+	margin: 74mm auto 1mm 30mm;
+	width: 150mm;
+	text-align:center;
+	font-size:1.8em;
+	font-weight:bold;
+}
+.stud_school1 {
+	border: 1px solid #FFFFFF;
+	margin: 0 auto 0 40mm;
+	width: 130mm;
+	text-align:center;
+	font-weight:bold;
+	font-size: 1em;
+}
+.stud_name2 {
+	margin: 71mm auto 0mm 30mm;
+	width: 150mm;
+	text-align:center;
+	font-size:2em;
+	font-weight:bold;
+}
+.stud_school2 {
+	margin: 0 auto 0 40mm;
+	width: 130mm;
+	text-align:center;
+	font-weight:bold;
+}

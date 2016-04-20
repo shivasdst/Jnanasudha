@@ -1,0 +1,237 @@
+html, body {
+	background-color: #FFFFFF;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+	font-family: sans-serif;
+}
+.page {
+	min-height: 43em;
+	width: 670px;
+	margin: 0em auto 2em auto;
+	overflow: hidden;
+}
+.header {
+	height: 10em;
+	width: 100%;
+	clear: both;
+	background-color: #FFFFFF;
+}
+.header .title{
+	font-variant: small-caps;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+	margin: 1em 1em 1em 1em;
+	float: right;
+}
+.nav {
+	font-size: 0.75em;
+	clear: both;
+	margin: 0em 0em 0 0em;
+	padding: 0.3em;
+	border-bottom: 1px solid #CCCCCC;	
+}
+.nav li{
+	display: inline;	
+	margin: 0 0 0em 0.5em;
+	color: #FFFFFF;
+}	
+.nav li a{
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 0.5em 1em 0.5em 1em;
+	text-decoration: none;
+	background-color: #5F96D8;
+	border: 1px solid #5F96D8;
+	border-bottom: none;
+	-moz-border-radius: 9px 9px 0px 0px;
+}
+.nav li a.active, .nav li a:HOVER {
+	font-weight: bold;
+	background-color: #3D3D3D;
+	border: 1px solid #3D3D3D;
+	border-bottom: none;
+	-moz-border-radius: 9px 9px 0px 0px;
+	-moz-box-shadow: -px -1px 3px #5F96D8;
+}
+.mainpage {
+	min-height: 43em;
+	width: 100%;
+	clear: both;
+	background-color: #FFFFFF;
+}
+.maintable{
+	width: 95%;
+	margin: 0 auto 0 auto;
+	font-size: 0.9em;
+	color: #3D3D3D;
+}
+.maintable .left{
+	width: 25%;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 0.5em 1em 0.5em 0;
+	text-align: right;
+}
+.maintable .right{
+	width: 75%;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 0.5em 0 0.5em 1em;
+	text-align: left;
+}
+.inner_table{
+	width: 80%;
+	margin: 1em 0 0 4em;
+	font-size: 0.8em;
+	color: #3D3D3D;
+}
+.inner_table .left{
+	width: 40%;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 1em 1em 1em 0;
+	text-align: right;
+}
+.inner_table .right{
+	width: 60%;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	padding: 1em 0 1em 1em;
+	text-align: left;
+}
+
+.updatetable{
+	border: 1px solid #CCCCCC;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	font-size: 0.9em;
+}
+.updatetable td{
+	font-size: 0.95em;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	height: 3em;
+	padding: 0.5em;
+}
+#insti{
+	text-align: left;
+}
+.kannadaspan {
+	font-size: 1.1em;
+}
+.updatespan {
+	font-size: 1em;
+	color: #5F96D8; 
+}
+.updatespan a{
+	font-size: 1em;
+	color: #5F96D8;
+	text-decoration:none;
+}
+.updatespan a:Hover{
+	font-size: 1em;
+	color: #3D3D3D;
+	text-decoration:underline;
+}
+.titlespan {
+	font-size: 1em;
+	color: #3D3D3D; 
+}
+.titlespan a{
+	font-size: 1em;
+	color: #3D3D3D;
+	text-decoration:none;
+}
+.titlespan a:Hover{
+	font-size: 1em;
+	color: #000000;
+	text-decoration:underline;
+}
+.bld{
+	font-weight: bold;
+}
+.footer {
+	height: 5em;
+	width: 100%;
+	clear: both;
+}
+.titlespan {
+	font-size: 0.8em;
+	color: #3D3D3D; 
+}
+.titlespan a{
+	font-size: 1em;
+	color: #3D3D3D;
+	text-decoration:none;
+}
+.titlespan a:Hover{
+	font-size: 1em;
+	color: #000000;
+	text-decoration:underline;
+}
+.footer {
+	height: 2em;
+	width: 100%;
+	clear: both;
+}
+.foot_box {
+	margin: 0em 0em 0em 0em;
+	font-size: 0.6em;
+}
+.foot_box .left{
+	float: left;
+	margin-top: 0.8em;
+	color: #3D3D3D;	
+}
+.foot_box .right{
+	float: right;
+	margin-top: 0.8em;
+}
+.foot_box .right li{
+	display: inline;
+	color: #3D3D3D;
+}
+.foot_box .right li a{
+	color: #3D3D3D;
+	text-decoration: none;
+}
+.foot_box .left li a:HOVER{
+	color: #3D3D3D;	
+	text-decoration: underline
+}
+input {
+	color: #3D3D3D;
+	border: 1px solid #CCCCCC;
+}
+textarea {
+	color: #3D3D3D;
+	border: 1px solid #CCCCCC;
+}
+select {
+	background: none;
+	color: #3D3D3D;
+	border: 1px solid #CCCCCC;
+}
+ol li{
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-bottom: 0.5em;
+}
+.report{
+	text-align: center;
+	font-size:1.5em;
+	font-weight:bold;
+}
+.mand{
+	color: #888888;
+}
+.mand1{
+	color: #800000;
+}
