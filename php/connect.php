@@ -1,6 +1,6 @@
 <?php
 $user='root';
-$password='Sriranga@#$!';
+$password='mysql';
 $database='jsudha';
 
 date_default_timezone_set("Asia/Calcutta");
